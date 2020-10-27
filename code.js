@@ -75,7 +75,7 @@ col2.insertBefore(element, iElement); */
 
 // UPPGIFT LÄGG en blå boll innan D
 
-const oneBlue = document.createElement('div');
+/* const oneBlue = document.createElement('div');
 oneBlue.setAttribute('class', 'ball blue');
 oneBlue.textContent = '1';
 
@@ -83,4 +83,14 @@ const col1 = document.querySelector('#col1');
 col1.appendChild(oneBlue);
 
 const iOneBlue = document.querySelector('#d')
-col1.insertBefore(oneBlue, iOneBlue);
+col1.insertBefore(oneBlue, iOneBlue); */
+
+//replaceChild()
+
+/* const content = document.querySelector('div');
+
+console.log(content.classList);
+content.classList.add('ball.red');
+content.classList.remove('ball.green');
+content.classList.add('ball.blue'); */
+

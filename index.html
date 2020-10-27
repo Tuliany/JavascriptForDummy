@@ -8,29 +8,36 @@
   <title>Dom Manipulation</title>
 </head>
 <body>
+  <select id="colors">
+    <option value="red"> red </option>
+    <option value="blue"> blue </option>
+    <option value="green"> green </option>
+  </select>
   <div class="container">
-    <div id="col1" class="col">
+    <div class="col">
       <div class="ball blue">A</div>
-      <div class="ball blue">B</div>
-      <div class="ball blue">C</div>
-      <div id="d"class="ball blue">D</div>
+      <div id="makeGreen"onclick="makeSelectedColor(this)" class="ball blue">B</div>
+      <div onmouseover ="makeGreen(this)"
+          onmouseout="makeRed(this)"
+      class="ball blue">C</div>
+      <div class="ball blue">D</div>
       <div class="ball blue">E</div>
     </div>
-      <div id="col2" class="col">
-        <div class="ball red">F</div>
-        <div id="g"class ="ball red">G</div>
+      <div class="col">
+        <div id="f" class="ball red">F</div>
+        <div class ="ball red">G</div>
         <div class="ball red">H</div>
-        <div id="i" class="ball red">I</div>
+        <div class="ball red">I</div>
         <div class="ball red">J</div>
       </div>
         <div id="col3"class="col">
-          <div class="ball green">K</div>
+          <div id="k" class="ball green">K</div>
           <div class="ball green">L</div>
           <div class="ball green">M</div>
           <div class="ball green">N</div>
           <div class="ball green">O</div>
         </div>
   </div>
-<script src="code.js"></script>
+<script src="27th.js"></script>
 </body>
 </html>
